@@ -12,6 +12,7 @@ body {
   background-position: 0px 50px;
 }
 div#interface {
+  position: absolute;
   width: 95%;
   height: 100%;
   margin: 0px auto 0px auto;
