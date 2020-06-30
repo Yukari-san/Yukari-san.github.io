@@ -57,6 +57,9 @@ section article.question {
   color: white;
   background-color: rgba(0,0,0,.6);
 }
+section article.question ul {
+  text-align: left;
+}
 footer {
   margin-top: 5px;
   border-top: 1px solid gray;
