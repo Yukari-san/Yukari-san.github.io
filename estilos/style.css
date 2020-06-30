@@ -40,8 +40,9 @@ h1#titulo {
   font-size: 30pt;
   text-shadow: 4px 4px 4px #463b69;
 }
-a#guild-invite {
-  float: right top;
+img#discord-invite {
+  right: 5%;
+  left: auto;
   width: 125px;
 }
 section article.question {
