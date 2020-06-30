@@ -41,8 +41,7 @@ h1#titulo {
   text-shadow: 4px 4px 4px #463b69;
 }
 img#discord-invite {
-  left: 90%;
-  right: auto;
+  float: left;
   border: 1px solid black;
   width: 125px;
 }
