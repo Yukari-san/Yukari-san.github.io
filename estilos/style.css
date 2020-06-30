@@ -44,6 +44,10 @@ img#guild-invite {
   float: right top;
   width: 125px;
 }
+section article.question {
+  padding: 10px;
+  background-color: rgba(0,0,0,.6);
+}
 footer {
   margin-top: 5px;
   border-top: 1px solid gray;
