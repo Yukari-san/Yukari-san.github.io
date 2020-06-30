@@ -51,6 +51,7 @@ img#discord-invite {
   width: 125px;
 }
 section article.question {
+  box-sizing: border-box;
   text-align: center;
   width: 500px;
   padding: 5px;
