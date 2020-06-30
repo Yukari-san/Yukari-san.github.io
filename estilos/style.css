@@ -7,14 +7,10 @@
 
 body {
   font-family: Oswald, sans-serif;
-  background: url('../imagens/runicos-desenho.jpg') no-repeat;
-  background-size: 1200px 700px;
-  background-position: 0px 50px;
 }
 div#background {
   background: url('../imagens/runicos-desenho.jpg') no-repeat;
-  background-size: 1200px 700px;
-  background-position: 0px 50px;
+  background-size: cover;
   filter: blur(5px);
 }
 div#interface {
@@ -29,12 +25,14 @@ div#introducao {
 h1#titulo {
   font-family: bastarda;
   font-size: 30pt;
-  text-shadow: 2px 2px 4px #463b69;
+  text-shadow: 4px 4px 4px #463b69;
 }
 img#discord-invite {
   border: 1px solid black;
   width: 125px;
 }
 footer {
+  margin-top: 5px;
+  border-top: 1px solid gray;
   text-align: center;
 }
