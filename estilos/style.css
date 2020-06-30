@@ -15,15 +15,6 @@ div#interface {
   height: 100%;
   margin: 0px auto 0px auto;
 }
-div#bgmeio {
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  width: 102%;
-  height: 700px;
-  background: url('../imagens/tumulos-blur.jpg') no-repeat;
-  background-size: cover;
-}
 nav {
   background-color: #363062;
   overflow: hidden;
@@ -55,6 +46,7 @@ img#discord-invite {
   width: 125px;
 }
 section article.question {
+  width: 500px;
   padding: 5px;
   color: white;
   background-color: rgba(0,0,0,.6);
