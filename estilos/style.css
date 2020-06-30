@@ -9,9 +9,8 @@ body {
   font-family: Oswald, sans-serif;
 }
 div#background {
-  background: url('../imagens/runicos-desenho.jpg') no-repeat;
+  background: url('../imagens/tumulos-blur.jpg') no-repeat;
   background-size: cover;
-  filter: blur(5px);
 }
 div#interface {
   width: 100%;
@@ -24,11 +23,13 @@ div#introducao {
 }
 h1#titulo {
   text-align: center;
-  font-family: bastarda;
+  /*font-family: bastarda;*/
   font-size: 30pt;
   text-shadow: 4px 4px 4px #463b69;
 }
 img#discord-invite {
+  left: 90%;
+  right: auto;
   border: 1px solid black;
   width: 125px;
 }
