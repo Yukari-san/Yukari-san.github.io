@@ -15,6 +15,21 @@ div#interface {
   margin: 0px auto 0px auto;
   border: 1px solid black;
 }
+nav {
+  background-color: #363062;
+  overflow: hidden;
+}
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+nav a.active {
+  border: 2px solid #827397;
+}
 div#introducao {
   border: 1px solid pink;
 }
