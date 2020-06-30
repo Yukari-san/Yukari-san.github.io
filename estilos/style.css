@@ -14,7 +14,6 @@ div#interface {
   width: 100%;
   height: 100%;
   margin: 0px auto 0px auto;
-  border: 1px solid black;
 }
 nav {
   background-color: #363062;
@@ -30,10 +29,10 @@ nav a {
 }
 nav a.active {
   color: #82739;
-  border: 2px solid #827397;
+  border: 2px solid #827397
 }
 div#introducao {
-  border: 1px solid pink;
+  transition-duration: 1s;
 }
 h1#titulo {
   text-align: center;
@@ -43,7 +42,6 @@ h1#titulo {
 }
 img#discord-invite {
   float: right top;
-  border: 1px solid black;
   width: 125px;
 }
 footer {
