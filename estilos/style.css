@@ -23,6 +23,7 @@ div#introducao {
   border: 1px solid pink;
 }
 h1#titulo {
+  text-align: center;
   font-family: bastarda;
   font-size: 30pt;
   text-shadow: 4px 4px 4px #463b69;
