@@ -40,7 +40,7 @@ h1#titulo {
   font-size: 30pt;
   text-shadow: 4px 4px 4px #463b69;
 }
-h1.descricao {
+p.descricao {
   margin-top: 0px;
   text-align: center;
 }
