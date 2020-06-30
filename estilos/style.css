@@ -7,8 +7,8 @@
 
 body {
   font-family: Oswald, sans-serif;
-  background: url('../imagens/tumulos-blur.jpg');
-  background-size: cover;
+  background: url('../imagens/tumulos-blur.jpg') no-repeat;
+  background-size: contain;
 }
 div#interface {
   width: 100%;
