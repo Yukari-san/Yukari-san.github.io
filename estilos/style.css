@@ -20,13 +20,10 @@ div#interface {
 header#principal {
   background: url('../imagens/tumulos-blur.jpg') no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   text-align: center;
   height: 850px;
   box-sizing: border-box;
-  /*background: url('../imagens/tumulos-blur.jpg') no-repeat;
-  background-size: cover;
-  background-attachment: fixed;;*/
+  /*background-attachment: fixed;*/
 }
 header {
   text-align: center;
@@ -121,15 +118,13 @@ div#historia h3 {
 }
 aside {
   text-align: center;
-  background-color: blue;
   float: right;
   width: 350px;
 }
 footer.pagina {
-  clear: both;
   color: white;
   margin-top: 100px;
-  padding: 150px;
+  padding: 100px;
   background-color: #181430;
   text-align: center;
 }
