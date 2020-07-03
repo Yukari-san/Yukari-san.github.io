@@ -30,6 +30,14 @@ header {
   height: 100px;
   box-sizing: border-box;
 }
+img.anuncio {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 600px;
+  margin: -15px auto;
+  display: block;
+  margin-bottom: 10px;
+}
 nav {
   background-color: #363062;
   overflow: hidden;
@@ -61,12 +69,17 @@ p.descricao {
   margin-top: 0px;
   text-align: center;
 }
+section {
+  margin: 0px auto;
+  width: 600px;
+  text-align: center;
+}
 section#sec-mundo {
   margin: 0px auto;
   padding: 2px;
   font-size: 14pt;
   /*background-color: rgba(0,0,0,.2);*/
-  width: 600px;
+  width: 700px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -113,8 +126,17 @@ section#corpo article.question {
 section#corpo article.question ul {
   text-align: left;
 }
+section#aventura h1, h2{
+  text-align: center;
+}
 div#historia h3 {
   font-size: 35px;
+}
+div.runa-exemplo {
+  text-align: center;
+}
+img.runa-img {
+  width: 700px;
 }
 aside {
   text-align: center;
@@ -145,4 +167,23 @@ footer.pagina {
   font-size: 18px;
   margin-top: 0px;
   background-color: rgba(54, 48, 98,.6);
+}
+.jogador-link {
+  text-decoration: none;
+  color: inherit;
+}
+.jogador-link:hover {
+  text-decoration: underline;
+  color: gray;
+}
+div#personagens {
+  background-color: rgba(0,0,0,.8);
+  display: block;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+.pfp img {
+  clip-path: circle(50%);
+  width: 150px;
+  height: 150px;
 }
