@@ -75,6 +75,7 @@ section {
   text-align: center;
 }
 section#sec-mundo {
+  animation: reveal 2s;
   margin: 0px auto;
   padding: 2px;
   font-size: 14pt;
@@ -102,9 +103,6 @@ section#sec-mundo div p {
 }
 section#sec-mundo span {
   font-weight: 900;
-}
-section#sec-mundo div {
-  animation: reveal 2s;
 }
 
 @keyframes reveal {
@@ -177,13 +175,55 @@ footer.pagina {
   color: gray;
 }
 div#personagens {
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.6);
   display: block;
   padding: 30px 0 30px 0;
   text-align: center;
+  border-radius: 300px;
+  transition-duration: 0.2s;
 }
-.pfp img {
-  clip-path: circle(50%);
+div#personagens:hover {
+  background-color: black;
+}
+.profile {
+  border-radius: 50%;
+  border: 1px inset rgba(128, 128, 128, .4);
+  margin-right: 6px;
   width: 150px;
   height: 150px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+.profile:hover {
+  transform: scale(1.1);
+}
+.profile span {
+  position: relative;
+  width: 150px;
+  box-sizing: border-box;
+  padding-top: 120px;
+  margin-bottom: 150px;
+  display: block;
+  opacity: 0;
+  transition-duration: opacity 1s;
+}
+.profile span:hover {
+  opacity: 1;
+}
+div#per-info {
+  margin: 300px auto;
+  width: 950px;
+  text-indent: 15px;
+  overflow: hidden;
+}
+iframe#iframe-pinfo {
+  width: 900px;
+  height: 3500px;
+  border: none;
+  overflow: hidden;
+  
 }
