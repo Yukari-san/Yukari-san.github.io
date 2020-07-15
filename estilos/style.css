@@ -4,7 +4,6 @@
   font-family: bastarda;
   src: url('../fontes/bastarda.ttf')
 }
-
 html, body {
   padding: 0;
   margin: 0;
@@ -53,6 +52,17 @@ nav a {
 nav a.ativo {
   color: #82739;
   border-bottom: 4px solid #827397
+}
+nav.dropdown {
+  display: inline-block;
+  position: relative;
+}
+nav.dropdown .dropdown-content {
+  float: none;
+}
+.display-content {
+  position: absolute;
+  display: none;
 }
 div#introducao {
   transition-duration: 1s;
@@ -216,14 +226,15 @@ div#personagens:hover {
 }
 div#per-info {
   margin: 300px auto;
-  width: 950px;
+  width: 1300px;
+  height: 10000px;
   text-indent: 15px;
   overflow: hidden;
 }
-iframe#iframe-pinfo {
-  width: 900px;
-  height: 3500px;
+#iframe-pinfo {
+  width: 1300px;
+  border: 2px solid purple;
+  height: 10000px;
   border: none;
   overflow: hidden;
-  
 }
