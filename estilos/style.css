@@ -20,7 +20,8 @@ header#principal {
   background: url('https://cdn.discordapp.com/attachments/704397593391661147/733414938655326379/unknown.png') no-repeat;
   background-size: cover;
   text-align: center;
-  height: 850px;
+  width: 100vw;
+  height: 100vh;
   box-sizing: border-box;
   /*background-attachment: fixed;*/
 }
