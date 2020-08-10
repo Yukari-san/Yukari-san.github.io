@@ -1,1 +1,225 @@
-/* haha */
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Oswald,sans-serif;
+}
+#interface {
+  width: 1300px;
+  box-sizing: border-box;
+}
+section {
+  margin-left: 5px;
+  width: 800px;
+  float: left;
+}
+section .section-sub {
+  font-size: 50pt;
+  text-align: center;
+}
+section h3 {
+  text-align: center;
+}
+section p {
+  text-align: justify;
+}
+article {
+  clear: both;
+}
+.img-right {
+  float: right;
+  margin-left: 20px;
+  width: 350px
+}
+.img-left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 350px
+}
+aside {
+  float: right;
+  width: 500px;
+}
+.ficha {
+  width: 400px;
+}
+.ficha div {
+  width: 400px;
+  overflow: hidden;
+  text-indent: 20px;
+}
+.ficha div header {
+  width: 400px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+.ficha div header h1 {
+  font-size: 20pt;
+  margin-top: 20px;
+}
+.ficha div header h2 {
+  margin-top: -25px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 30pt;
+}
+.ficha #infos {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+.ficha div p {
+  max-width: 400px;
+}
+.ficha div header h1 {
+  font-size: 40pt;
+  margin-bottom: 0px;
+}
+.ficha h3 {
+  font-size: 20pt;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.ficha img {
+  width: 400px;
+}
+.ficha div div {
+  margin-top: -20px;
+  background-color: black;
+  color: white;
+}
+.item {
+  padding: 10px;
+  background-color: red;
+  text-shadow: 1px 1px 1px blue;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: gray;
+}
+.cent {
+  text-align: right;
+}
+
+#runa {
+  width: 800px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .9);
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+
+.runa-img {
+  width: 250px;
+  height: 270px;
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+  background-size: cover;
+  background-position: center;
+}
+
+#runa h1 {
+  text-align: center;
+  margin: 5px;
+  font-size: 24pt;
+}
+
+#runa .item-runa {
+  font-size: 18pt;
+  width: 100px;
+  float: left;
+  display: block;
+  margin-right: 10px;
+  margin-bottom: -5px;
+  text-align: right;
+}
+
+#runa .item-runa-value {
+  font-size: 18pt;
+  float: left;
+  width: 52.5%;
+  background-color: black;
+  margin-bottom: -5px;
+}
+
+#runa .item-runa-desc {
+  font-size: 18pt;
+  float: left;
+  width: 52.5%;
+  background-color: black;
+  margin-bottom: -5px;
+  text-align: left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#descricao {
+  clear: both;
+}
+
+.desc-title {
+  font-size: 25pt;
+}
+
+.desc-value {
+  margin-bottom: -5px;
+  font-size: 16pt;
+}
+
+.habs {
+  font-size: 24pt;
+}
+
+#habilidades {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.habilidade {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.habilidade:last-child {
+  border: none;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.hab-img {
+  float: left;
+  display: block;
+  width: 250px;
+  height: 200px;
+  display: none;
+}
+
+.hab-bg {
+  float: left;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 200px;
+}
+
+iframe {
+  border: none;
+}
