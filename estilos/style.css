@@ -234,7 +234,6 @@ div#per-info {
 }
 #iframe-pinfo {
   width: 1300px;
-  border: 2px solid purple;
   height: 6000px;
   border: none;
   overflow: hidden;
