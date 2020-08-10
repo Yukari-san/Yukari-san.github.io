@@ -228,14 +228,14 @@ div#personagens:hover {
 div#per-info {
   margin: 300px auto;
   width: 1300px;
-  height: 10000px;
+  display: inline-block;
   text-indent: 15px;
   overflow: hidden;
 }
 #iframe-pinfo {
   width: 1300px;
   border: 2px solid purple;
-  height: 10000px;
+  height: 6000px;
   border: none;
   overflow: hidden;
 }
