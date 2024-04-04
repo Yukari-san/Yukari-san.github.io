@@ -3,5 +3,3 @@
 Um arquivo escrito LEIA-ME... E você está lendo... o que significa....
 
 Clique <a href="https://Yukari-san.github.io">aqui</a> para acessar o Site
-
-Cê é bem obediente em, rsrs
